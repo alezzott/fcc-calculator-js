@@ -1,0 +1,17 @@
+export const buttonsData = [
+  { id: 'divide', value: '/', label: '/', text: 'Division' },
+  { id: 'multiply', value: '*', label: 'x', text: 'Multiplication' },
+  { id: 'seven', value: '7', label: '7' },
+  { id: 'eight', value: '8', label: '8' },
+  { id: 'nine', value: '9', label: '9' },
+  { id: 'subtract', value: '-', label: '-', text: 'Subtraction' },
+  { id: 'four', value: '4', label: '4' },
+  { id: 'five', value: '5', label: '5' },
+  { id: 'six', value: '6', label: '6' },
+  { id: 'add', value: '+', label: '+', text: 'Addition' },
+  { id: 'one', value: '1', label: '1' },
+  { id: 'two', value: '2', label: '2' },
+  { id: 'three', value: '3', label: '3' },
+  { id: 'decimal', value: '.', label: '.', text: 'Decimal point' },
+  { id: 'zero', value: '0', label: '0' },
+];
