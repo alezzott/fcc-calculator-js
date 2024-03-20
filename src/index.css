@@ -1,0 +1,32 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #252525;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-main {
+  background: radial-gradient(circle at left center, #4776e6 0%, #8e54e9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 72px;
+}
+
+@media screen and (max-width: 768px) {
+  .text-main {
+    font-size: 36px;
+    text-align: 'center';
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

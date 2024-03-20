@@ -1,0 +1,14 @@
+#root {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    margin-top: 50px;
+  }
+}
